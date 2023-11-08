@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+navbar{
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    justify-content: end;
+    /* background-color: rgba(0, 0, 255, 0.557); */
+    height: 150px;
+    
+}
+.nav-all{
+    margin-top: 60px;
+    margin-right: 45px;
+    text-decoration: none;
+    color: black;
+}
+.nav-all:hover{
+    font-size:33px ;
+    margin-top:55px ;
+    font-weight: 600;
+}
+.nav-contact{
+    margin-right: 70px;
+}
+/* .nav-portfolio{
+    margin-right: 40%;
+    font-size: 35px;
+    font-weight: 550;
+    margin-top:50px ;
+} */
+.container{
+    background-image: url(./background.jpg);
+    background-size: cover;
+    height: 600px;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    margin-top: 130px;
+ }
+ .my-name{
+     font-size:80px;
+     margin-right: 10%;
+     margin-bottom: 0;
+     font-family: 'Prata', serif;
+ }
+ .work{
+     margin-right: 6%;
+     font-size:40px;
+     margin-top: 0;
+ }
+ .heading-about-me{
+    margin-top: 70px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 550;
+ }
+ .aboutme-image-div{
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 80px;
+    margin-top: 70px;
+ }
+ .my-photo{
+    width: 300px;
+    height: 300px;
+    margin-left: 7%;
+ }
+ .introduction{
+    width: 60%;
+ }
+.my-name-intro{
+    font-size: 40px;
+    margin-left: 23%;
+    font-weight: 500;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+.intro-about-me{
+    margin-left: 50px;
+    margin-right: 40px;
+    font-size: 20px;
+    line-height: 1.4;
+}
+.project{
+    background-color: #a8dadc;
+}
+.project-title{
+    padding-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 550;
+}
+.project-sec{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    transition: transform 10ms ease-in-out;
+    cursor: pointer;
+}
+.project-main:hover{
+    width: 270px;
+    height: 400px;
+    .project-image{
+        width: 270px;
+        height: 160px;
+    }
+    
+    border: 4px solid black;
+}
+.project-main{
+    width: 260px;
+    height: 390px;
+    margin-left: 10%;
+    margin-bottom: 70px;
+    background-color: white;
+    border-bottom-right-radius: 8%;
+border-bottom-left-radius: 8%;
+border-top-right-radius: 28px;
+border-top-left-radius: 28px;
+}
+.project-image{
+    width: 260px;
+    height: 150px;
+    border-top-right-radius: 26px;
+    border-top-left-radius: 26px;
+}
+.about-project{
+background-color: white;
+padding: 17px;
+}
+button{
+    width: 70px;
+    height: 30px;
+    border-radius: 7px;
+    background-color: black;
+    margin-left: 35%;
+    cursor: pointer;
+}
+.btn-a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+.a2{
+margin-top: 50px;
+}
+.a3{
+    margin-top: 13px;
+}
+.get-in{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.mobile-div{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.telephone-sym{
+    width: 25px;
+    height: 25px;
+    margin: 0 10px 0 10px;
+}
+.span{
+    margin-top: 6px;
+    margin-left: 3px;
+}
+.span2{
+    margin-top: 3px;
+    margin-left: 3px;
+}
+.span3{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    margin: 0;
+}
+.margin-d{
+    margin-bottom: 60px;
+}
+.common1{
+    margin-top: 35px;
+}
+.footer{
+    width: 100%;
+    background-color: #5C8984;
+    height:150px;
+    font-family: sans-serif;
+}
+.links{
+    display: flex;
+    justify-content: center;
+ }
+.github{
+    margin-right: 7%;
+    margin-left: 7%;
+}
+a{
+    text-decoration: none;
+    margin-top: 2.3rem;
+    font-size: 23px;
+    color: white;
+}
+.copyright{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 19px;
+}
+.logo{
+    margin:3px 7px 0 0;
+    width: 19px;
+    height: 19px;
+}
+.my_name{
+    color:#00e3fd ;
+}
